@@ -1,9 +1,5 @@
 
 *{
-    box-sizing: border-box;
-}
-
-html{
     scroll-behavior: smooth;
 }
 
@@ -12,106 +8,31 @@ body{
     margin: 0;
 }
 
-h1{font-size: 3.5em;}
-h2{font-size: 2.7em;}
-h3{font-size: 2em;}
-p{font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
-
-
-a{
-    text-decoration: none;
-    color: white;
+.size__logo__company {
+    width: 70px;
 }
-
-
 
 header{
     display: flex;
-    min-height: 65px;
-    background-color: blueviolet;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 }
-
-.logo{
-    display: flex;
-    align-items: center;
-}
-
-/* .nombre-empresa{
-    font-size: 30px;
-} */
-
-.logo img{
-    height: 70px;
-    margin-right: 10px;
-
-}
-
-nav a{
-    font-weight: 600;
-    padding-right: 20px;
-
-
-}
-
-nav a:hover{
-    color: black;
-}
-
-@media (max-width:700px) {
-    header{
-        flex-direction: column;
-    }
-
-    nav{
-        padding:10px 0px;
-}
-
-}
-
- .container {
-font-weight: 300;
-font-size: 34px;
-text-align: center;
-}
-
-.contenedor {
-font-weight: 300;
-font-size: 34px;
-text-align: center;
-} 
-
 
 header{
     display: flex;
     min-height: 65px;
     background-image: linear-gradient(
         to right,
-        /* orangered,
-        orange,
-        gold,
-        lightgreen,
-        cyan, */
         rgb(128, 0, 128),
         rgb(118, 59, 236),
         rgb(10, 248, 248),
         rgba(118, 59, 236),
         purple);
-
-        /* hotpink,
-        orangered); */
     justify-content: space-between;
     align-items: center;
     padding: 0px;
 }
 
-
 header {
-    animation: sliding 30s linear infinite;
+    animation: sliding 130s linear infinite;
 }
  
 @keyframes sliding {
@@ -121,9 +42,12 @@ header {
 }
 
 .contenedorvip{
+    display: flex;
+    flex-direction: column;
     font-weight: 300;
     font-size: 34px;
     text-align: center;
+
 }
 
 .contenedor{
@@ -213,7 +137,7 @@ header a{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("HD-wallpaper-csgo-ultra-games-counter-strike-video-game-counter-strike-global-offensive-csgo-global-offensive\ \(1\).png"); background-position: center center; background-size: cover;
+    ,url("../imgs/pngtree-black-low-polygon-gradient-background-image_449310.jpg"); background-position: center center; background-size: cover;
 }
 
 #valhallasv{
