@@ -3,9 +3,9 @@ let see = document.getElementById("navDisplay")
 
 let displayMenu = () =>{ 
     new Promise((resolve, reject) => {
-        if (see.style.display != "block") resolve (see.style.display = "block");
-        else reject(see.style.display = "none");
-    })
+        if (see.style.clipPath != "inset(0px)") resolve(see.style.clipPath = "inset(0 0 0 0)");
+        else reject();
+    }).catch(()=> see.style.clipPath = null)
     
 }
 
