@@ -1,0 +1,329 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+header{
+    display: flex;
+    min-height: 65px;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/* .nombre-empresa{
+    font-size: 30px;
+} */
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+
+
+}
+
+nav a:hover{
+    color: black;
+}
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding:10px 0px;
+}
+
+}
+
+ .container {
+font-weight: 300;
+font-size: 34px;
+text-align: center;
+}
+
+.contenedor {
+font-weight: 300;
+font-size: 34px;
+text-align: center;
+} 
+
+
+header{
+    display: flex;
+    min-height: 65px;
+    background-image: linear-gradient(
+        to right,
+        /* orangered,
+        orange,
+        gold,
+        lightgreen,
+        cyan, */
+        rgb(128, 0, 128),
+        rgb(118, 59, 236),
+        rgb(10, 248, 248),
+        rgba(118, 59, 236),
+        purple);
+
+        /* hotpink,
+        orangered); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+
+header {
+    animation: sliding 30s linear infinite;
+}
+ 
+@keyframes sliding {
+    to {
+        background-position: -2000vw;
+    }
+}
+
+.contenedorvip{
+    font-weight: 300;
+    font-size: 34px;
+    text-align: center;
+}
+
+.contenedor{
+    font-weight: 300;
+font-size: 28px;
+text-align: center;
+}
+
+.container5{
+    font-weight: 300;
+font-size: 34px;
+text-align: center;
+
+}
+
+.contenedor2{
+    font-weight: 300;
+font-size: 34px;
+text-align: center;
+
+}
+
+.contactos{
+font-weight: 300;
+font-size: 34px;
+text-align: center;
+
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header .logo{
+    margin: 0;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    /* flex-direction: column; */
+    text-align:center;
+    /* padding-bottom: 25px; */
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#hero{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("HD-wallpaper-csgo-ultra-games-counter-strike-video-game-counter-strike-global-offensive-csgo-global-offensive\ \(1\).png"); background-position: center center; background-size: cover;
+}
+
+#valhallasv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("ashe.png"); background-position: center center; background-size: cover;
+}
+
+#valhallasv li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#valhallasv p{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#vips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+    color: black;
+}
+
+
+#vips .contenedorvip{
+padding: 150px 12px;
+}
+
+#vips h2{
+ margin-top: 0;
+}
+
+#vips .cartas{
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.cartas:first-child{
+    border-radius: 0px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+
+    ,url("VIP.png");
+}
+
+.cartas:nth-child(2){
+    border-radius: 0px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+
+    ,url("VIP.png");
+}
+
+.cartas:nth-child(3){
+    border-radius: 0px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+
+    ,url("VIP.png");
+} 
+
+#caracteristicas .contenedor2{
+     background-color: rgb(30, 30, 30);
+     color: black;
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#vips .contenedorvip{
+    display: flex;
+    justify-content: center;
+}
+
+#vips p{
+    display:block;
+}
+
+#vips .cartas{
+    padding: 15px
+}
