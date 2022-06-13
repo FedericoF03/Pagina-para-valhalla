@@ -118,12 +118,41 @@ ul {
     justify-content: center;
     background-color: rgb(30 30 30);
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
 }
 
 .box__cards {
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+    height: 70vh;
+}
+
+.sub {
+    margin-bottom: 2px;
+}
+
+.sub__title {
+    padding-bottom: 20px;
+    width: 100vw;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #777777;
+    background-image: linear-gradient(rgba(108, 105, 107, 0.5), rgba(108, 105, 107, 0.5)), url(../imgs/VIP.png);
+    background-size: 100%;
+    backdrop-filter: #686565;
+    margin-right: 11%;
+    margin-left: 5%;
+    padding: 5% 15% 10% 15%;
+    border-radius: 8px;
+    height: 70%;
 }
 
 
@@ -134,6 +163,23 @@ ul {
     justify-content: center;
     background-attachment: fixed;
     background-image: url("../imgs/counter-strike-global-offensive-csgo-3198.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+
+.why__title {
+    padding-bottom: 20px;
+    width: 100vw;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.conteiner__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url("../imgs/pngtree-black-low-polygon-gradient-background-image_449310.jpg");
     background-size: cover;
     height: 80vh;
 }
