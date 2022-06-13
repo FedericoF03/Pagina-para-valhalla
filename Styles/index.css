@@ -21,14 +21,12 @@ body{
     left: -15px;
 }
 
-.title__principal {
-    margin-left: 130px;
-    margin-right: 60px;
-}
+
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-image: linear-gradient(
         to right,
         rgb(128, 0, 128),
@@ -48,9 +46,16 @@ body{
 }
 
 .nav__mobile {
-    display: none;
+    display: none; 
+    position: absolute;
+    width: 100vw;
+    background-color: black;
 }
 
+.menu__absolute {
+    position: absolute;
+    right: 10px;
+}
 
 
 .text--marginzero {
@@ -91,6 +96,10 @@ a {
 ul {
     list-style: none;
     padding-inline-start: 0;
+}
+
+li {
+    margin: 2% 0;
 }
 
 .about_us {
@@ -184,6 +193,17 @@ ul {
     height: 80vh;
 }
 
+.contact__title {
+    padding-bottom: 20px;
+    width: 100vw;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.owner__img {
+    width: 50px;
+}
 
 
 .footer {
@@ -191,7 +211,8 @@ ul {
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
-    background-image: url("../imgs/counter-strike-global-offensive-csgo-3198.jpg");
+    background-color: black;
     background-size: cover;
     height: 10vh;
 }
+
