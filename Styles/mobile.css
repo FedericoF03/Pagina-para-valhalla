@@ -132,18 +132,18 @@ li {
 
 .conteiner__cards {
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
-    justify-content: center;
     background-color: rgb(30 30 30);
     background-size: cover;
-    height: 125vh;
+    height: 70vh;
 }
 
 .box__cards {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-    height: 85vh;
+    height: 40vh;
 }
 
 .sub {
@@ -151,26 +151,22 @@ li {
 }
 
 .sub__title {
-    padding-bottom: 20px;
-    width: 100vw;
-    text-transform: capitalize;
-    font-size: 2rem;
-    text-align: center;
+        text-transform: capitalize;
+        font-size: 2rem;
+        text-align: center;
 }
 
 .cards {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: #777777;
     background-image: linear-gradient(rgba(108, 105, 107, 0.5), rgba(108, 105, 107, 0.5)), url(../imgs/VIP.png);
-    background-size: 120%;
+    background-size: 250%;
     background-position: center;
-    margin-right: 11%;
-    margin-left: 5%;
-    padding: 5% 15% 2% 15%;
+    background-repeat: no-repeat;
+    margin: 15px 5%;
     border-radius: 8px;
-    height: 70%;
+    padding: 0 30px;
 }
 
 
