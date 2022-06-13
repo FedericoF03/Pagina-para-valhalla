@@ -136,14 +136,14 @@ li {
     justify-content: center;
     background-color: rgb(30 30 30);
     background-size: cover;
-    height: 100vh;
+    height: 125vh;
 }
 
 .box__cards {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-    height: 70vh;
+    height: 85vh;
 }
 
 .sub {

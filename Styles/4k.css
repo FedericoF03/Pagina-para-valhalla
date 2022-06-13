@@ -1,4 +1,4 @@
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
     
     .logo__company {
         width: 120px;
@@ -121,7 +121,7 @@
         justify-content: center;
         background-color: rgb(30 30 30);
         background-size: cover;
-        height: 125vh;
+        height: 150vh;
     }
     
     .box__cards {
@@ -153,7 +153,7 @@
         background-position: center;
         margin-right: 11%;
         margin-left: 5%;
-        padding: 5% 15% 2% 15%;
+        padding: 5% 15% 5% 15%;
         border-radius: 8px;
         height: 70%;
     }
