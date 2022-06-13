@@ -7,16 +7,16 @@
         <meta name="description" content="Pagina principal para compra y venta de rangos en Valhalla">
         <title>Valhalla</title>
         <link rel="icon" href="./imgs/Vallhala_Servidores-modified.svg">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./Styles/index.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">
-            <img class="size__logo__company" src="./imgs/valhalla-logo.png" alt="logo de la compañia">
-            <h2 class="nombre-empresa">Valhalla</h2>
+    <header class="header">
+            <img class="logo__company" src="./imgs/valhalla-logo.png" alt="logo de la compañia">
+            <h1 class="title__principal">Valhalla</h1>
+            <img src="./imgs/icons8-menú.svg" alt="menu icon">
         </a>
-        <nav>
+        <nav class="nav__mobile">
             <ul>
                 <a href="#hero" class="nav-link"><li>Inicio</li></a>
                 <a href="#vips" class="nav-link"><li>Compras</li></a>
@@ -26,94 +26,69 @@
             </ul> 
         </nav>
     </header>
-    <section id="hero">
-        <div class="contenedor">
-        <h1>¡Bienvenido a Valhalla! <br>comunidad de CSGO</h1>
-        <form action="#valhallasv">
-        <button>¿Quienes somos?</button>
-        </div>
-        </form>
-    </section>
-    <section id="valhallasv">
-        <div class="container5">
-            <h2 style="color: white;"><br>¿Quienes somos?</h2>
-            <p style="color: white;">
-                Somos un grupo de amigos que juntos fundaron una comunidad de Argentina.</p>
-                <p style="color: white;">💎 Lista de servidores 💎</p>
-                <ul>
-                    <li style="color: white;">💣 Casual:      45.235.98.31:28068 💣</li>
-                    <li style="color: white;">🌊 AutoMix:     45.235.98.31:28028 🌊</li>
-                    <li style="color: white;">🔫 Surf combat: 45.235.98.31:28067 🔫</li>
-                </ul>
+    <section class="welcome__banner">
+        <div>
+        <h1 class="welcome__title">¡Bienvenido a Valhalla! comunidad de CSGO</h1>
+        <a href="#"><button class="buttons">¿Quienes somos?</button></a>
         </div>
     </section>
-
-    <section id="vips">
-        <div class="contenedorvip">     
-        <h2>Compra de rango VIP</h2>
-        <div class="programas"> 
-        <div class="cartas">
-        <h3>MENSUAL</h3>
-        <p>125$</p>
-        <form action="https://mpago.la/2SSYmVL">
-        <button>Comprar</button>
-        </form>
+    <section class="about_us">
+        <div>
+            <h1 class="about_us__title">¿Quienes somos?</h1>
+            <p>Somos un grupo de amigos que juntos fundaron una comunidad de Argentina.</p>
+            <p>💎 Lista de servidores 💎</p>
+            <ul>
+                <li>💣 Casual: 45.235.98.31:28068 💣</li>
+                <li>🌊 AutoMix: 45.235.98.31:28028 🌊</li>
+                <li>🔫 Surf combat: 45.235.98.31:28067 🔫</li>
+            </ul>
         </div>
-        <div class="cartas">
-        <h3 style="color: white;">3 MESES</h3>
-        <p style="color: white">550$</p>
-        <form action="https://mpago.la/22o5KXm">
-        <button>Comprar</button>
-        </form>
-        </div>
-        <div class="cartas">
-        <h3 style="color: white;">PERMA</h3>
-        <p style="color: white">800$</p>
-        <form action="https://mpago.la/1JTtmHJ">
-        <button>Comprar</button>
-        </form>
-        </div>
-        </div>
-    </div>
     </section>
-            
-    <section id="caracteristicas">
-        <div class="contenedor2">
-        
-        <h2 style="color: white">¿Por que elegirnos?</h2>
-        <ul>
-            <li style="color: white;">✅ Servidores 24/7</li>
-            <li style="color: white;">✅ Buena atención de la administración</li>
-            <li style="color: white;">✅ Host estable</li>
-            <li style="color: white;">✅ Servidores Optimizados</li>
-            <li style="color: white;">✅ Priorizamos a nuestros usuarios ante todo ❤️</li>
-        </ul>
-    </div>
-    </section>
-
-    <section id="contactos">
-            <div class="contactos">
-            <h2  style="color: white;">Como contactarnos</h2>
-            <div class="cartas">
-
+    <section class="conteiner__cards">   
+        <h1>Compra de rango VIP</h1>
+        <div class="box__cards">
+            <div>
+                <h5>MENSUAL</h5>
+                <p>125$</p>
+                <form action="https://mpago.la/2SSYmVL">
+                    <button>Comprar</button>
+                </form>
             </div>
+            <div>
+                <h5>3 MESES</h5>
+                <p>550$</p>
+                <form action="https://mpago.la/22o5KXm">
+                    <button>Comprar</button>
+                </form>
+            </div>
+            <div>
+                <h5>PERMA</h5>
+                <p>800$</p>
+                <form action="https://mpago.la/1JTtmHJ">
+                    <button>Comprar</button>
+                </form>
+            </div>
+        <div>
+    </section>        
+    <section class="conteiner__why">
+        <div>
+            <h1 class="why__title">¿Por que elegirnos?</h1>
+            <ul>
+                <li>✅ Servidores 24/7</li>
+                <li>✅ Buena atención de la administración</li>
+                <li>✅ Host estable</li>
+                <li>✅ Servidores Optimizados</li>
+                <li>✅ Priorizamos a nuestros usuarios ante todo ❤️</li>
+            </ul>
         </div>
     </section>
-
-        <footer>
-            <div class="conteiner5">
-                
-                <p style="color: white;">&copy; Valhalla 2022 by Leo</p>
-            </div>
-        </footer>
-        
-        <!-- <body style="background-image: url(https://static.vecteezy.com/system/resources/previews/002/486/285/non_2x/violet-purple-gradient-background-mesh-free-vector.jpg); background-position: center center; background-size: cover;"></body> -->
-
-        <body style="background-color: rgb(30, 30, 30);;">
-            
-        </body>
-
-                <!-- <body style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/counter-strike-global-offensive-csgo-3198.jpg?s=large); background-position: center; background-size cover;"></body> -->
-
+    <section>
+        <div>
+            <h1>Como contactarnos</h1>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Valhalla 2022 by <a href="">@fede_carrizo0903</a></p>
+    </footer>
 </body>
 </html>
