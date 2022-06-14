@@ -127,8 +127,9 @@
     .box__cards {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         overflow-x: scroll;
-        height: 85vh;
+        height: 70vh;
     }
     
     .sub {
@@ -151,11 +152,11 @@
         background-image: linear-gradient(rgba(108, 105, 107, 0.5), rgba(108, 105, 107, 0.5)), url(../imgs/VIP.png);
         background-size: 120%;
         background-position: center;
-        margin-right: 11%;
-        margin-left: 5%;
-        padding: 5% 15% 5% 15%;
+        margin-right: 1%;
+        margin-left: 3%;
+        padding: 5% 7% 5% 7%;
         border-radius: 8px;
-        height: 70%;
+        height: 38%;
     }
     
     
